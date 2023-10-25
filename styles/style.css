@@ -332,10 +332,6 @@
     font-size: 40px;
 }
 
-.about__text:first-child {
-    margin-bottom: 28px;
-}
-
 .about__text {
     color: #000;
     font-family: Raleway, sans-serif;
@@ -343,7 +339,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 28px;
 }
+
+.about__text:first-child {
+    margin-top: 0px;
+}
+
 
 .footer {
     display: flex;
